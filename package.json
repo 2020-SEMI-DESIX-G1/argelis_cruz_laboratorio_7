@@ -1,0 +1,20 @@
+{
+  "name": "argelis_cruz_laboratorio_7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "mongo_start": "docker run --rm -p 27017:27017 --name mongodb -d mongo",
+    "mongo_stop": "docker stop mongodb",
+    "nodemon": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.20",
+    "nodemon": "^2.0.4"
+  }
+}
